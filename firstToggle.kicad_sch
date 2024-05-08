@@ -2793,14 +2793,6 @@
 		(uuid "e63103a2-97d0-4290-893c-c8900ef3308c")
 	)
 	(no_connect
-		(at 180.34 49.53)
-		(uuid "3e7b8f56-6b1d-4da1-860c-0d928f513c6c")
-	)
-	(no_connect
-		(at 152.4 46.99)
-		(uuid "8d112552-2a11-4976-80f4-d863adf9ff78")
-	)
-	(no_connect
 		(at 180.34 54.61)
 		(uuid "a11f1deb-0117-4435-b435-42df3e6d2fb2")
 	)
@@ -3930,6 +3922,71 @@
 			(project "14000JKFF"
 				(path "/56463b8e-670e-41df-bd3a-314161dc4bc4/df53b169-e5a4-412e-9dd1-7763e315ffc5"
 					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 180.34 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "272dc5cf-0795-497f-bf82-21b14ce87702")
+		(property "Reference" "#PWR0153"
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 184.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "453b04f8-b829-4f62-9801-dc86cfaba439")
+		)
+		(instances
+			(project "14000JKFF"
+				(path "/56463b8e-670e-41df-bd3a-314161dc4bc4/df53b169-e5a4-412e-9dd1-7763e315ffc5"
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -5244,6 +5301,71 @@
 			(project "14000JKFF"
 				(path "/56463b8e-670e-41df-bd3a-314161dc4bc4/df53b169-e5a4-412e-9dd1-7763e315ffc5"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acb66ec1-4b14-43b1-a222-2146010d9c1a")
+		(property "Reference" "#PWR0152"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516aeaf5-dd88-4c66-90e8-0e6af40a4506")
+		)
+		(instances
+			(project "14000JKFF"
+				(path "/56463b8e-670e-41df-bd3a-314161dc4bc4/df53b169-e5a4-412e-9dd1-7763e315ffc5"
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
